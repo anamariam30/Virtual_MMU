@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Virtual_MMU.srcs/sources_1/new/Combine.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/MMU_State_machine.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/MainMemory.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/Page_Table.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/mux.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/TLB.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/TestBench.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/comparator.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/disk.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/tlb_sim.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/triState_buffer.vhd" \
+"../../../../Virtual_MMU.srcs/sources_1/new/unit.vhd" \
+
+# Do not sort compile order
+nosort
